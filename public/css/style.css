@@ -1,0 +1,227 @@
+* {
+    margin:0;
+padding:0;
+box-sizing: border-box;
+
+font-family: arial;
+}
+
+/*----------------HEAD----------------*/
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-wrap: flex;
+    
+
+
+  
+}
+.right{
+    float: right;
+    padding-left:220px;
+    transition: 0.3s;
+
+
+}
+.left{
+    float: left;
+    padding-left: 50px;
+
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav .icon {
+    display: none;
+}
+.dropdown {
+    float: left;
+    overflow: hidden
+
+}
+.dropdown .dropbtn-ideas,.dropdown .dropbtn-proyectos,.dropdown .dropbtn-desarrollo,.dropdown .dropbtn-clases,.topnav a{
+          font-size: 15px; 
+      margin: 10px 10px -11px 30px;
+       padding: 14px 16px 30px;
+        cursor: pointer;
+      
+ transition:0.3s;
+}
+.dropdown .dropbtn-ideas,.dropdown .dropbtn-proyectos,.dropdown .dropbtn-desarrollo,.dropdown .dropbtn-clases {
+   
+    border: none;
+    outline: none;
+    color: white;
+   
+
+
+ 
+   
+   
+}
+.inicio{
+     background-color: #CD6155 ;
+}
+.inicio:hover,.inicio:active{
+color: #FBEEE6;
+background-color:#85929E;  
+}
+.dropbtn-ideas{
+     background-color: rgba(125, 60, 152,0.7);
+
+}
+.dropbtn-ideas:hover,.inicio:active{
+  color: #FBEEE6;
+background-color:#85929E;
+}
+.dropbtn-proyectos{
+      background-color: rgba(36, 113, 163,0.7);
+}
+.dropbtn-proyectos:hover,.proyectos:active{
+      color: #FBEEE6;
+background-color:#85929E;
+
+}
+.dropbtn-desarrollo{
+    background-color: rgba(214, 137, 16,0.7);
+}
+.dropbtn-desarrollo:hover,.dropbtn:active{
+background-color: rgba(69, 179, 157 ,1.0) ;
+}
+.dropbtn-clases{ 
+    background-color: rgba(186, 74, 0,0.7);
+}
+.right a:hover{
+    text-decoration: overline;
+}
+.dropbtn-clases:hover,.dropbtn:active{
+      color: #FBEEE6;
+background-color:#85929E;
+
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f7f7f7;
+    min-width: 160px;
+       padding-bottom: 10px;
+
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+
+}
+.contactenos{
+        background-color: #2E4053 ;
+
+
+}
+.contactenos:hover,.contactenos:active{
+background-color: rgba(235, 152, 78  ,1.0) ;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 15px 15px;
+     text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover{
+    background-color: #333;
+    color:#fff;
+
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+@media screen and (max-width: 1332px) and (min-width: 1215px){
+       .dropdown .dropbtn-ideas,.dropdown .dropbtn-proyectos,.dropdown .dropbtn-desarrollo,.dropdown .dropbtn-clases,.topnav a{
+        margin: 10px 20px auto auto;
+     }
+ .right{
+        padding-left: 80px;
+
+        
+
+    }
+}
+@media screen and (max-width: 1214px) and (min-width: 1060px){
+    .right{
+        padding-left: 10px;
+
+        
+
+    }
+    .left{
+        padding-left: 60px;
+      
+
+    
+    }
+    .topnav{ 
+      height: inherit;
+     }
+     .dropdown .dropbtn-ideas,.dropdown .dropbtn-proyectos,.dropdown .dropbtn-desarrollo,.dropdown .dropbtn-clases,.topnav a{
+        margin: 10px 9px auto auto;
+     }
+}
+@media screen and (max-width: 1059px) and (min-width: 600px){
+
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn-ideas,.dropdown .dropbtn-proyectos,.dropdown .dropbtn-desarrollo,.dropdown .dropbtn-clases,.right {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn-ideas,.dropdown .dropbtn-proyectos,.dropdown .dropbtn-desarrollo,.dropdown .dropbtn-clases {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+
+/*----------------HEAD----------------*/
+/*-------------------------------------------------------------------------------*/
+/*----------------BODY----------------*/
+
+
+
+
+
+
+/*----------------BODY----------------*/
+/*-------------------------------------------------------------------------------*/
+/*----------------FOOT----------------*/
+/*----------------FOOT----------------*/
